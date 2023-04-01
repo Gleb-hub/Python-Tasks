@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mirea-python"
+version = "0.1.0"
+description = ""
+authors = ["Gleb Nechaev <nechaevgleb@inbox.ru>"]
+readme = "README.md"
+packages = [{include = "mirea_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pycodestyle = "^2.10.0"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
